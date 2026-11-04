@@ -37,7 +37,7 @@ Sign table: `data/key.tsv`.
 | Read as words, per word (one wrong token fails the whole word) | 3,575 (92.4%). Failing 182 (4.7%), uncertain or code 112 (2.9%) |
 | Control (letter values shuffled 1000 times) | 0 at or above the real key (words whose consonant skeleton matches an English word: real 516/703, shuffled mean 243.9, max 369) |
 | Control (values of the 32 signs seen 12 times or fewer shuffled 1000 times) | 0 at or above the real key (real 516, mean 474.2, max 492) |
-| Agreement with other readers (values) | Claude Sonnet, 19 pages, 93.3% (lowest page p16, 87.7%). OpenAI Codex, 18 pages, 91.0% (before corrections to the first reading); 19 pages, 91.3% (after; lowest page p12, 83.5%) |
+| Agreement with other readers (values) | Claude Sonnet, 19 pages, 93.3% (lowest page p16, 87.7%). OpenAI Codex, 19 pages, 91.0% (before corrections to the first reading), 91.3% (after; lowest page p12, 83.5%) |
 | Calibration | None (no contemporary decipherment or edition was found) |
 
 Both word-count figures use relaxations (u=v, i=j, doubled letters count once, 10 and 12 may be skipped, 19 is a or e, 56 is y or w). Some were added after the reading was made. All are listed in `docs/METHOD.en.md`.

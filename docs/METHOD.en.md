@@ -21,7 +21,7 @@ Only the Sonnet answers from the run with question numbers burned into the image
 ## Second readings
 Claude Sonnet: all 19 pages, three bands per page read one at a time. Ten pages (p15 p16 p17 p03 p05 p07 p09 p11 p19 p14) were read after correction round 1 and nine after round 2. Overall 93.3% (values, of 3,915), names 93.1%.
 
-OpenAI Codex (codex-cli 0.163.0-alpha.10.2, gpt-6-astra, reasoning high, three bands at 2048 px, run from an empty folder, no commands executed): all 19 pages. A usage limit delayed p14 and p19. 91.0% in values against the first reading before corrections (18 pages, of 3,925; that file has no p19), 91.3% after (19 pages, of 3,927).
+OpenAI Codex (codex-cli 0.163.0-alpha.10.2, gpt-6-astra, reasoning high, three bands at 2048 px, run from an empty folder, no commands executed): all 19 pages. A usage limit delayed p14 and p19. 91.0% in values against the first reading before corrections (of 3,925), 91.3% after (of 3,927).
 
 How compared: the closing point of a word can look like 0 or 1, so three-digit readings keep their first two digits; four digits are split in two against a missed comma (same treatment on both readings). Unnormalised agreement is lower. Per-page values come from `src/agreement.py` (lowest: Sonnet p16 87.7%, Codex p12 83.5%).
 
