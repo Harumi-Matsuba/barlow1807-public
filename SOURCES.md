@@ -22,4 +22,4 @@ p14 の 55 → p19 の頭、p02 の 47 → p03 の頭、p06 の 55 → p07 の�
 
 この作業が答える目録の項目：Daniel Bourdeau の暗号の目録（Cyphersolver）の項目 1245。
 
-公表前の見直し：2026年11月2日（`docs/PRIOR_CHECK.md`）。
+公表前の見直し：2026年11月2日と11月4日（`docs/PRIOR_CHECK.md`）。先行の読みがある（`docs/COMPARISON.md`）。

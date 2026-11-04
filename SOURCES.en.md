@@ -21,4 +21,4 @@ The page order differs both from the Commons numbering and from the pencil numbe
 
 Catalogue entry addressed: item 1245 of Daniel Bourdeau's cipher catalogue (Cyphersolver).
 
-Re-checked for prior work before publication on 2 November 2026 (`docs/PRIOR_CHECK.en.md`).
+Re-checked for prior work on 2 and 4 November 2026 (`docs/PRIOR_CHECK.en.md`). An earlier reading exists (`docs/COMPARISON.en.md`).

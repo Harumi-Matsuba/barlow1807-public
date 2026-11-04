@@ -64,7 +64,7 @@ def main(who, fn='tr1.txt'):
     T = M = V = 0
     for p in PAGES:
         y = second(p, who)
-        if y is None:
+        if y is None or not P.get(p):
             continue
         x = P[p]
         n = max(len(x), len(y))

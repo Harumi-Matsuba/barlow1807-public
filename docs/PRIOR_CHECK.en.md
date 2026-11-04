@@ -1,11 +1,18 @@
 # Prior work
 
-Checked 2 November 2026 (before starting and before publication). Part of the pre-publication check was done by a separate reader not involved in the decipherment (Claude Sonnet), aiming to find earlier work.
+Checked 2 November 2026 (before starting and before publication) and 4 November 2026 (last check before publication). Part of the 2 November check was done by a separate reader not involved in the decipherment (Claude Sonnet), aiming to find earlier work.
 
-## Result: not found
-Neither a text with decipherment nor a plaintext alone was found in the places searched. This does not prove there is none.
+## Result: already read
+The 4 November check found WAINUT's reading ([dbourdeau/cyphersolver#231](https://github.com/dbourdeau/cyphersolver/issues/231), opened 2026-11-03 23:05 UTC; catalogue folder targets/barlow1807), status read in part. See `docs/COMPARISON.en.md`. On 2 November the catalogue did not hold it (origin/main 0a2e13030).
+In the other places below, neither a text with decipherment nor a plaintext alone was found. This does not prove there is none.
 
-## Searched (nothing found)
+## Re-checked on 4 November
+- Daniel Bourdeau's catalogue Cyphersolver (origin/main c9e114cb8): nothing else. All files searched; issue titles (latest 100).
+- Cryptiana list of unsolved ciphers (Last-Modified 2026-11-04): no matching word. Blog feed, latest 20: no matching word.
+- Cryptoole front page: no matching word.
+- GitHub: repository search Barlow Grenville cipher 1807, 0 results. No decipherment among the top code-search results (top 8, judged by title).
+
+## Searched on 2 November (nothing found)
 - Daniel Bourdeau's catalogue Cyphersolver (origin/main 0a2e13030, 2026-11-02): item 1245 is open, "No decipherment noted". All files searched for Barlow, Grenville, Zamboni, 1245; titles of issues and PRs (latest 100 of each).
 - Cryptiana list of unsolved ciphers (Last-Modified 2026-10-28): no matching word.
 - Cryptoole list idx.json (1,646 items): the item is there with no decipherment noted.
@@ -23,4 +30,4 @@ Neither a text with decipherment nor a plaintext alone was found in the places s
 - HathiTrust and Google Books full-text search; other Dropmore volumes; OCR errors may hide something.
 
 ## Wording
-We say "no earlier decipherment was found in the places searched", not "first decipherment".
+We do not say "first decipherment". WAINUT published first.

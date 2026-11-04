@@ -1,11 +1,18 @@
 # 先行の調べ
 
-調べた日：2026年11月2日（着手前と公表前）。公表前の調べの一部は、解読に関わっていない別の読み手（Claude Sonnet）が、先行を見つけるつもりで行った。
+調べた日：2026年11月2日（着手前と公表前）、2026年11月4日（公表直前の見直し）。11月2日の調べの一部は、解読に関わっていない別の読み手（Claude Sonnet）が、先行を見つけるつもりで行った。
 
-## 区分：見つからない
-平文と解読の両方がある資料も、平文だけの資料も、調べた先には見当たらなかった。これは「ない」の証明ではない。
+## 区分：既に読まれている
+2026年11月4日の見直しで、WAINUT の読みを見つけた（[dbourdeau/cyphersolver#231](https://github.com/dbourdeau/cyphersolver/issues/231)、作成 2026-11-03 23:05 UTC、目録の targets/barlow1807）。状態は read in part。比較は `docs/COMPARISON.md`。11月2日の調べの時点で、目録にこの読みはなかった（origin/main 0a2e13030）。
+ほかの先（下）では、平文と解読の両方がある資料も、平文だけの資料も見当たらない。これは「ない」の証明ではない。
 
-## 調べた先（見当たらなかった）
+## 11月4日に見直した先
+- Daniel Bourdeau の目録 Cyphersolver（origin/main c9e114cb8）：上の読みのほかに該当なし。全ファイルの検索と issue の題（直近100件）。
+- Cryptiana の未解決の一覧（Last-Modified 2026-11-04）：該当の語 0。ブログのフィードの直近20件：該当の語 0。
+- Cryptoole のトップページ：該当の語 0。
+- GitHub：リポジトリ検索 Barlow Grenville cipher 1807 は 0 件。コード検索の上位に解読文なし（上位8件を題名で確認）。
+
+## 11月2日に調べた先（見当たらなかった）
 - Daniel Bourdeau の目録 Cyphersolver（origin/main 0a2e13030、2026-11-02）：項目 1245 は未解決で、「No decipherment noted」。全ファイルの Barlow・Grenville・Zamboni・1245 の検索、issue と PR の題（直近各100件）。
 - Cryptiana の未解決の一覧（Last-Modified 2026-10-28）：該当の語 0。
 - Cryptoole の一覧 idx.json（1,646 件）：項目はあるが、解読の記載はない。
@@ -23,4 +30,4 @@
 - HathiTrust・Google Books の全文検索。Dropmore の他の巻。OCR の崩れによる見落としもありうる。
 
 ## 言い方
-「調べた先では先行の解読が見当たらない」までとし、「初めて解いた」とは書かない。
+「初めて解いた」とは書かない。先に公開したのは WAINUT である。

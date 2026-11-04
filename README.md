@@ -3,8 +3,10 @@
 Fort William、1807年2月12日付。「Private and Confidential」「Quadruplicate」。Cleveland Public Library、John G. White Collection（棚 W q091.92-B249t2）。
 手紙の中の数字の部分の鍵を割り出し、全19ページを読んだ記録である。
 
-**状態：全文の読み。** 暗号の記号 3,868 のうち、読みが語として通るものは 3,740（**96.7%**、記号の単位）。
-**語の単位の厳しい数え方では 3,595（92.9%）で、95% に届かない。** 違いは、1語の中の1記号が合わない語（書き手の誤りとみられる語が22語）の扱いである。
+**先行との関係：再現（reproduced）。** 同じ手紙は WAINUT が先に公開している（[dbourdeau/cyphersolver#231](https://github.com/dbourdeau/cyphersolver/issues/231)、2026年11月3日、read in part）。この読みは、それを見ずに作った別の読みで、先方を読んだ後に書き起こし・鍵・読みは変えていない。新しい点は p03 の読み、先方の穴の語の読みなどである。比較は `docs/COMPARISON.md`。
+
+**状態：全文の読み。** 暗号の記号 3,869 のうち、読みが語として通るものは 3,727（**96.3%**、記号の単位）。
+**語の単位の厳しい数え方では 3,575（92.4%）で、95% に届かない。** 違いは、1語の中の1記号が合わない語（書き手の誤りとみられる語が23語）の扱いである。
 数え方は下の「数字」に書いた。この記号の単位の数え方は、語の単位の結果を見た後に採ったものなので、両方を並べて読んでほしい。
 
 ## 読めたこと
@@ -30,12 +32,12 @@ Claudius Buchanan の *Memoir of the Expediency of an Ecclesiastical Establishme
 
 | 項目 | 値 |
 |---|---|
-| 暗号の記号（詰め物だけの語を除く） | 3,868（語 703、全19ページ） |
-| 語として通る（記号の単位。誤字の記号だけを通らないに数える） | 3,740（96.7%）。誤字の記号 23、語全体が読めない 6、不確か・符号 99（2.6%） |
-| 語として通る（語の単位。語の中の1記号でも合わなければ語全体を通らないに数える） | 3,595（92.9%）。通らない 174（4.5%）、不確か・符号 99（2.6%） |
-| 対照（字の値のかき混ぜ1000回） | 本物以上 0 回（語のうち骨組みが英語の語と同じもの：本物 517/703、かき混ぜの平均 244.5、最大 370） |
-| 対照（出現12回以下の32記号の値だけをかき混ぜ1000回） | 本物以上 0 回（本物 517、平均 475.4、最大 492） |
-| 別の読み手との一致（値） | Claude Sonnet 19ページ 93.3%（ページの最低は p16 の 87.7%）。OpenAI Codex 17ページ 91.1%（1回目を直す前）、91.3%（直した後） |
+| 暗号の記号（詰め物だけの語を除く） | 3,869（語 703、全19ページ） |
+| 語として通る（記号の単位。誤字の記号だけを通らないに数える） | 3,727（96.3%）。誤字の記号 24、語全体が読めない 6、不確か・符号 112（2.9%） |
+| 語として通る（語の単位。語の中の1記号でも合わなければ語全体を通らないに数える） | 3,575（92.4%）。通らない 182（4.7%）、不確か・符号 112（2.9%） |
+| 対照（字の値のかき混ぜ1000回） | 本物以上 0 回（語のうち骨組みが英語の語と同じもの：本物 516/703、かき混ぜの平均 243.9、最大 369） |
+| 対照（出現12回以下の32記号の値だけをかき混ぜ1000回） | 本物以上 0 回（本物 516、平均 474.2、最大 492） |
+| 別の読み手との一致（値） | Claude Sonnet 19ページ 93.3%（ページの最低は p16 の 87.7%）。OpenAI Codex 18ページ 91.0%（1回目を直す前）、19ページ 91.3%（直した後。ページの最低は p12 の 83.5%） |
 | 較正 | なし（当時の解読文も刊本も見つからない） |
 
 どちらの数字にも緩めた扱いがある（u=v、i=j、同じ字の連続は1字、10・12 は読み飛ばしてよい、19 は a か e、56 は y か w）。一部は読みを作った後に足した。`docs/METHOD.md` に全部書いた。
@@ -46,7 +48,7 @@ Claudius Buchanan の *Memoir of the Expediency of an Ecclesiastical Establishme
 
 ## 先行との関係
 
-調べた先では先行の解読が見当たらない（2026年11月2日。`docs/PRIOR_CHECK.md`）。「初めて解いた」とは言わない。Grenville 文書の原本、Barlow 文書、刊本の一部は見ていない。
+先行は WAINUT の読みである（上の冒頭、`docs/COMPARISON.md`、`docs/PRIOR_CHECK.md`）。「初めて解いた」とは言わない。Grenville 文書の原本、Barlow 文書、刊本の一部は見ていない。
 
 ## AI の使用
 
@@ -60,8 +62,8 @@ Claudius Buchanan の *Memoir of the Expediency of an Ecclesiastical Establishme
 - `data/key.txt`・`data/key.tsv` 鍵。`data/reading.txt` 語ごとの読み。`data/fulltext.txt` 全文。
 - `data/image_check.tsv` 画像の2択の問いと答えの全部。
 - `second/` 2回目の読み（Sonnet、Codex）と依頼文。
-- `src/` 計測のプログラム（`python3 src/measure.py`、`src/control.py`、`src/agreement.py sonnet`）。測るには `pip install wordfreq` が要る。
-- `docs/` METHOD（方法と限界）、OPEN（未解決）、READING（読み）、PRIOR_CHECK（先行の調べ）。
+- `src/` 計測のプログラム（`python3 src/measure.py`、`src/control.py`、`src/agreement.py sonnet`、`src/compare.py`）。測るには `pip install wordfreq` が要る。
+- `docs/` METHOD（方法と限界）、OPEN（未解決）、READING（読み）、COMPARISON（先行との比較）、PRIOR_CHECK（先行の調べ）。
 - `SOURCES.md` 資料とページの順。
 
 英語版は `*.en.md`。

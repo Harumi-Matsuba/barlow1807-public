@@ -266,7 +266,7 @@
 264 church
 265 -
 266 the
-267 declared
+267 ?declared
 268 =
 269 active support
 270 ruling
@@ -606,7 +606,7 @@
 604 a
 605 religious
 606 nature
-607 manifest
+607 ?manifest
 608 sacred
 609 obligation
 610 my

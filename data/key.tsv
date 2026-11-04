@@ -22,7 +22,7 @@ sign	value	count	example_words
 25	h	1	might
 28	e	2	enemies, those
 29	a	6	abstain, against, natives
-30	d	60	england, multitudes, delusion
+30	d	59	england, multitudes, delusion
 31	c	22	ecclesiastical, effects, political
 32	c	9	received, ecclesiastical, protection
 33	m	42	memoir, multitudes, me
@@ -78,13 +78,13 @@ sign	value	count	example_words
 87	i	51	delusion, religion, blessings
 88	z	2	zeal, hazard
 89	v	39	buchanan, delusion, questions
-90	n	201	newspapers, ministers, establishment
+90	n	203	newspapers, ministers, establishment
 91	a	6	mr buchanan, be placed, legislature
 92	a	2	ecclesiastical, entertained
 93	l	3	violated, all, religious
 94	q	1	unequivocal
 95	g	46	england, discussing, blessings
-96	d	75	received, suggested, revd
+96	d	74	received, suggested, revd
 97	s	26	suggested, blessings, system
 98	i	94	memoir, india, diffusion
 99	b	28	establishment, buchanan, published
@@ -98,3 +98,4 @@ sign	value	count	example_words
 4990	[India]	7	
 5089	[5089]	1	
 5650	[British]	4	
+6	[6]	1	manifest (uncertain)
