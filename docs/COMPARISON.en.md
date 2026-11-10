@@ -10,7 +10,7 @@ Earlier work: the reading by WAINUT (https://github.com/WAINUTAI), folder `targe
 | Item | Here | WAINUT |
 |---|---|---|
 | Cipher words | Of 639 (codes and nulls excluded): 595 read (93.1%), 25 with letters that do not fit, 19 uncertain | Of 666: 479 read with no letter changed (71.9%), 119 with a letter changed, 68 doubtful |
-| Headline figures | 96.3% per cipher token, 92.4% per word (cipher tokens only) | 1192 of 1379 words (86.4%), 95.1% counting changed letters (clear words included) |
+| Headline figures | 96.2% per cipher token, 91.4% per word (after the corrections of 11 November 2026) (cipher tokens only) | 1192 of 1379 words (86.4%), 95.1% counting changed letters (clear words included) |
 | Agreement with Sonnet's reading (values) | 93.3% (of 3,915) | 93.4% (of 3,932) |
 | Agreement with Codex's reading (values) | 91.3% (of 3,927) | 91.2% (of 3,938) |
 | How the key was set | From context, seeing the whole text | Annealed on images 1-13, frozen, tested on 14-19 |
@@ -34,3 +34,18 @@ Aligned word by word there are 101 differences (`docs/comparison_reading.tsv`): 
 ## In WAINUT's work and not here
 - The transcription of the letter to Tierney (in clear).
 - The held-out test of a frozen key, and a blind reading of three pages.
+
+## Image check (11 November 2026)
+The 75 places where the two transcriptions differ (77 questions, one-to-one stretches split into single numbers) were judged on crops of the Cleveland images. The readers were Claude Sonnet and OpenAI Codex (codex-cli 0.163.0-alpha.10.2, gpt-6-astra, reasoning effort high). Neither was told which value came from which transcription, and neither saw the plaintext or a key. One-to-one places were two-choice questions in random order; places of different length asked the reader to write what the pen wrote. 80 questions sampled from numbers both transcriptions agree on, and 10 planted errors (a look-alike digit swapped in), were mixed in. Planted errors caught: Sonnet 10/10, Codex 10/10; sample: Sonnet 79/80, Codex 78/80. Table: `data/image_check_wainut.tsv`.
+
+| The image supports (only where both readers agree) | places |
+|---|---|
+| this transcription | 24 |
+| WAINUT's transcription | 20 |
+| readers disagree | 30 |
+| both readers read something else | 3 |
+
+- Of the 20 places that support WAINUT, the 14 one-to-one ones are now corrected in `data/tr1.txt` (the earlier file is in the Git history). Most are the writer's own slips: the reading of the word is unchanged, and the token is now counted as not fitting (78→75 in support, 66→56 in sentiment, etc.). So the share read as words falls from 96.3% to 96.2% per token and from 92.4% to 91.4% per word. The controls stay at 0 of 1,000.
+- Five of the numbers only WAINUT has are catchwords (the first word of the next page, written at the foot), which this transcription left out. One is a number cancelled with dots, which is kept here as cancelled and not read (75 on p17). These are differences of treatment, not of transcription. The other four (37 on p07, 99 on p08, 10 on p16, 00 on p19) are numbers the readers found on the image that this transcription lacks; they are not yet corrected because they change the word division (`docs/OPEN.en.md`).
+- The 101 differences in the reading were sorted by cause by script (`docs/comparison_reading_cause.tsv`): involving a transcription difference 20; this transcription's tokens read with WAINUT's key give WAINUT's word (a key difference) 15; spelling, word division, ? marks or choice of word 39; words only WAINUT has 15; no cipher word behind them (clear text) 12. The sorting matches word sequences and has not been checked by hand. Key and reading differences cannot be settled on the images.
+- No human has checked the images; the judgments above are by two AI readers.

@@ -1,0 +1,78 @@
+page	line	kind	this_transcription	wainut	sonnet	codex	image_supports	note	applied
+p01	3	one-for-one	45	5	WAINUT 5	WAINUT 5	WAINUT		yes
+p01	10	one-for-one	70	79	this 70	this 70	this transcription		
+p02	12	one-for-one	89	79	this 89	this 89	this transcription		
+p02	10	one-for-one	1	41	this 1	this 1	this transcription		
+p04	12	one-for-one	90	96	this 90	this 90	this transcription		
+p05	12	one-for-one	78	75	WAINUT 75	WAINUT 75	WAINUT		yes
+p05	5	one-for-one	66	06	this 66	WAINUT 06	readers disagree		
+p05	9	one-for-one	13	15	this 13	WAINUT 15	readers disagree		
+p05	3	one-for-one	66	56	WAINUT 56	WAINUT 56	WAINUT		yes
+p06	7	one-for-one	84	64	WAINUT 64	this 84	readers disagree		
+p07	11	one-for-one	87	37	this 87	this 87	this transcription		
+p07	10	one-for-one	96	98	this 96	this 96	this transcription		
+p07	15	one-for-one	20	30	this 20	this 20	this transcription		
+p08	12	one-for-one	30	20	WAINUT 20	WAINUT 20	WAINUT		yes
+p08	12	one-for-one	13	73	this 13	WAINUT 73	readers disagree		
+p08	7	one-for-one	40	01	this 40	N 401	readers disagree		
+p08	7	one-for-one	2	24	this 2	this 2	this transcription		
+p09	10	one-for-one	70	79	this 70	WAINUT 79	readers disagree		
+p10	11	one-for-one	89	9	this 89	this 89	this transcription		
+p10	16	one-for-one	77	79	WAINUT 79	WAINUT 79	WAINUT		yes
+p10	15	one-for-one	39	89	this 39	WAINUT 89	readers disagree		
+p10	9	one-for-one	98	96	WAINUT 96	this 98	readers disagree		
+p11	2	one-for-one	2	21	WAINUT 21	WAINUT 21	WAINUT		yes
+p11	13	one-for-one	80	30	this 80	this 80	this transcription		
+p11	10	one-for-one	9	91	this 9	WAINUT 91	readers disagree		
+p12	7	one-for-one	54	34	this 54	WAINUT 34	readers disagree		
+p13	11	one-for-one	4	41	this 4	WAINUT 41	readers disagree		
+p13	5	one-for-one	37	87	this 37	WAINUT 87	readers disagree		
+p14	15	one-for-one	50	96	WAINUT 96	WAINUT 96	WAINUT		yes
+p14	5	one-for-one	30	20	WAINUT 20	WAINUT 20	WAINUT		yes
+p14	5	one-for-one	85	65	this 85	this 85	this transcription		
+p14	16	one-for-one	29	9	N 2.9	this 29	readers disagree		
+p15	8	one-for-one	96	95	this 96	WAINUT 95	readers disagree		
+p15	9	one-for-one	43	48	this 43	this 43	this transcription		
+p15	7	one-for-one	65	63	WAINUT 63	this 65	readers disagree		
+p16	10	one-for-one	90	99	WAINUT 99	WAINUT 99	WAINUT		yes
+p16	10	one-for-one	85	35	this 85	WAINUT 35	readers disagree		
+p16	1	one-for-one	86	36	WAINUT 36	WAINUT 36	WAINUT		yes
+p17	12	one-for-one	51	81	this 51	this 51	this transcription		
+p17	3	one-for-one	90	70	this 90	this 90	this transcription		
+p17	4	one-for-one	44	47	WAINUT 47	WAINUT 47	WAINUT		yes
+p18	9	one-for-one	73	17	this 73	this 73	this transcription		
+p18	4	one-for-one	87	67	WAINUT 67	WAINUT 67	WAINUT		yes
+p18	10	one-for-one	90	96	this 90	this 90	this transcription		
+p18	9	one-for-one	65	55	WAINUT 55	WAINUT 55	WAINUT		yes
+p18	4	one-for-one	68	63	this 68	this 68	this transcription		
+p19	3	one-for-one	78	73	this 78	this 78	this transcription		
+p19	9	one-for-one	89	69	WAINUT 69	WAINUT 69	WAINUT		yes
+p19	13	one-for-one	36	86	this 36	this 36	this transcription		
+p02	14	span		47	WAINUT 47	other:43,90,66,12,78,43,66,84,54,39,98,69,70 43,90,66,12.,78,43,66,84,54,39,98,69,70.	readers disagree	catchword (first word of the next page, left out here)	
+p03	5	span	41		other:44 44	this 41.	readers disagree		
+p06	11	span		55,43,75,80,44	WAINUT 55,43,75,80,44	WAINUT 55,43,75,80,44.	WAINUT	catchword (first word of the next page, left out here)	
+p07	1	span		9	?	this NONE	readers disagree		
+p07	5	span	11		this 11	other:41 41. (curved bar)	readers disagree		
+p07	16	span		37	WAINUT 37	WAINUT 37	WAINUT		
+p08	7	span		99	WAINUT 99	WAINUT 99.	WAINUT		
+p08	5	span	40		this 40	this 40	this transcription		
+p09	17	span	75,90,10		?	this 75,90,10.	readers disagree		
+p10	17	span		68,75,64,75,36,83	WAINUT 68,75,64,75,36,83	other:36,83,11,20,32,52,43,75,66,50,98,54,90,11,85,40 36,83,11,20,32,52,43,75,66,50,98,54,90.,11.,85,40	readers disagree	catchword (first word of the next page, left out here)	
+p10	13	span	21		other:1 1	other:1 1.	both readers: neither		
+p12	9	span	78	7,8	other:98 98	other:26 26	readers disagree		
+p13	10	span	6		this 6	this 6	this transcription		
+p14	4	span	2		this 2	this 2.	this transcription		
+p14	17	span		55	WAINUT 55	other:10,44,201,44,22,60,74,11,60,40,53,74,11,22,85,37,76,100 10,44,201.,44,22,60,74,11.,60,40,53,74,11,22,85,37,76,100.	readers disagree	catchword (first word of the next page, left out here)	
+p15	9	span		41	other:4 4	WAINUT 41 (dot after 40)	readers disagree		
+p15	9	span	81		this 81	other:1 1	readers disagree		
+p16	14	span		10	WAINUT 10	WAINUT 10	WAINUT		
+p17	16	span	1		this 1	this 1	this transcription		
+p17	9	span		75	WAINUT 75	WAINUT 75 (dots above and below)	WAINUT	number cancelled with dots (kept here as ~, not read)	
+p17	7	span	4		this 4	this 4	this transcription		
+p18	1	span	96	91,6	other:9,6 9,6	other:9,6 9,6	both readers: neither		
+p18	5	span	60		this 60	WAINUT NONE	readers disagree		
+p18	14	span		44,2,16,5,81	other:44,2,10,5,81 44,2,10,5,81	other:44,2,10,5,31 44,2,10,5,31 (dot after 31)	readers disagree		
+p18	16	span		98	WAINUT 98	other:85,43,68,98,95,69,70,30,95,85,40 85.,43,68,98,95,69,70,30,95,85,40.	readers disagree	catchword (first word of the next page, left out here)	
+p19	13	span		00	WAINUT 00	WAINUT 00 (horizontal bar above)	WAINUT		
+p19	16	span		00	?	this NONE	readers disagree		
+p19	2	span	20		other:2 2	other:2 2	both readers: neither		

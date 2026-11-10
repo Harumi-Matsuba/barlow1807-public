@@ -5,8 +5,8 @@ This is a record of recovering the key to the numbered parts of the letter and r
 
 **Relation to earlier work: reproduced.** WAINUT published this letter first ([dbourdeau/cyphersolver#231](https://github.com/dbourdeau/cyphersolver/issues/231), 3 November 2026, read in part). This is a separate reading made without sight of that one; the transcription, key and reading were not changed after reading it. What is new here: a reading of p03, readings of the words left as holes there, and others. See `docs/COMPARISON.en.md`.
 
-**Status: full reading.** Of 3,869 cipher tokens, 3,727 (**96.3%**, per token) read as words.
-**By the stricter per-word count, 3,575 (92.4%), which is under 95%.** The difference is how a word with one wrong token is treated (23 words, apparently the writer's slips).
+**Status: full reading.** Of 3,869 cipher tokens, 3,722 (**96.2%**, per token) read as words.
+**By the stricter per-word count, 3,535 (91.4%), which is under 95%.** The difference is how a word with one wrong token is treated (28 words, apparently the writer's slips).
 Both ways of counting are in "Figures" below. The per-token count was adopted after the per-word result had been seen, so please read the two together.
 
 ## What it says
@@ -33,11 +33,11 @@ Sign table: `data/key.tsv`.
 | Item | Value |
 |---|---|
 | Cipher tokens (excluding words of nulls only) | 3,869 (703 words, all 19 pages) |
-| Read as words, per token (only the wrong token of a slip counts as failing) | 3,727 (96.3%). Slip tokens 24, words not read 6, uncertain or code 112 (2.9%) |
-| Read as words, per word (one wrong token fails the whole word) | 3,575 (92.4%). Failing 182 (4.7%), uncertain or code 112 (2.9%) |
-| Control (letter values shuffled 1000 times) | 0 at or above the real key (words whose consonant skeleton matches an English word: real 516/703, shuffled mean 243.9, max 369) |
-| Control (values of the 32 signs seen 12 times or fewer shuffled 1000 times) | 0 at or above the real key (real 516, mean 474.2, max 492) |
-| Agreement with other readers (values) | Claude Sonnet, 19 pages, 93.3% (lowest page p16, 87.7%). OpenAI Codex, 19 pages, 91.0% (before corrections to the first reading), 91.3% (after; lowest page p12, 83.5%) |
+| Read as words, per token (only the wrong token of a slip counts as failing) | 3,722 (96.2%). Slip tokens 29, words not read 6, uncertain or code 112 (2.9%) |
+| Read as words, per word (one wrong token fails the whole word) | 3,535 (91.4%). Failing 222 (5.7%), uncertain or code 112 (2.9%) |
+| Control (letter values shuffled 1000 times) | 0 at or above the real key (words whose consonant skeleton matches an English word: real 517/703, shuffled mean 244.3, max 367) |
+| Control (values of the 32 signs seen 12 times or fewer shuffled 1000 times) | 0 at or above the real key (real 517, mean 474.2, max 493) |
+| Agreement with other readers (values) | Claude Sonnet, 19 pages, 93.5% (lowest page p16, 88.7%). OpenAI Codex, 19 pages, 91.0% (before corrections to the first reading), 91.4% (after; lowest page p12, 83.5%) |
 | Calibration | None (no contemporary decipherment or edition was found) |
 
 Both word-count figures use relaxations (u=v, i=j, doubled letters count once, 10 and 12 may be skipped, 19 is a or e, 56 is y or w). Some were added after the reading was made. All are listed in `docs/METHOD.en.md`.
@@ -55,6 +55,9 @@ The earlier work is WAINUT's reading (see the top of this file, `docs/COMPARISON
 Fetching the images, transcription, key recovery, controls and this text were done by AI (Anthropic Claude).
 The second readings were made by Claude Sonnet and OpenAI Codex (codex-cli 0.163.0-alpha.10.2, gpt-6-astra, reasoning high) from the images alone, without the first reading or the key.
 People gave the instructions and made the decision to publish.
+
+## Update history
+- 2026-11-11: the 75 transcription differences from the earlier reading (WAINUT) were judged on the images, and the 14 one-to-one places where the image supports WAINUT were corrected. Read as words: 96.3% → 96.2% per token, 92.4% → 91.4% per word. No word of the reading changed. Details in `docs/COMPARISON.en.md`, "Image check".
 
 ## Contents
 

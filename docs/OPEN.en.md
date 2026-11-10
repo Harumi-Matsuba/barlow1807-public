@@ -6,7 +6,7 @@ The list is `docs/open_tokens.tsv` (word number, page, group, reading, signs, le
 |---|---|---|
 | code | 15 | Word codes. 4990 (India), 5650 (British), 4845 (Fort William) are inferred from context. 4087, 5089 and 4600 are unknown (in context "the 4087 newspapers", "received in 5089", "the 4600 community in this country") |
 | unsure | 19 | Word not settled; a reading with ? is a candidate. E.g. p06 19,47,10 13,33,64,43 (at "no ... can be so extreme"; crisis has letters that do not fit), p03 54,10,22,31 |
-| slip | 23 | Word readable but one or two tokens do not fit. The two-choice test mostly found the pen wrote them so (taken as the writer's slips). E.g. the 65 in newspapers, the 80 in society, the 30 and 80 in privileges |
+| slip | 28 | Word readable but one or two tokens do not fit. The two-choice test mostly found the pen wrote them so (taken as the writer's slips). E.g. the 65 in newspapers, the 80 in society, the 30 and 80 in privileges |
 | not_read | 2 | Word not read (13,40; 11,87,10,11) |
 
 Also not settled:
@@ -16,5 +16,5 @@ Also not settled:
 - The 8 places where only Codex chose the new value in the two-choice test were not changed: words 74 (60→66), 155 (69→89), 421 (13→73), 499 (89→9), 555 (35→85), 578 (90→96), 603 (47→97), 691 (80→50). The 2 where only Sonnet did also stay: words 267 (90→96; taken as declared, marked ?) and 485 (90→30; counted as a slip token in proposed).
 - The 6 at the head of word 607: Sonnet saw a stroke, Codex the digit 6, so it stays (manifest is marked ?).
 - Places where both models read something other than the first reading, not changed: word 173, 41 (4,11); word 209, 31 (310); word 210, 14 (140); word 317, 19 (190); word 318, 13 (130). The 0 may be the closing point, and all but 173 lie in uncertain words.
-- The 75 transcription differences from the earlier reading (`docs/comparison_transcription.tsv`) have not been judged on the images. Neither have the reading differences (`docs/comparison_reading.tsv`).
+- The 75 transcription differences from the earlier reading were judged on the images on 11 November 2026 (`docs/COMPARISON.en.md`, "Image check"; `data/image_check_wainut.tsv`). Open: the 30 places where the readers disagree, and the 3 where both read something else (21 on p10 read as 1, 96 on p18 as 9,6, 20 on p19 as 2). The 4 numbers only WAINUT has that the readers found on the image (37 on p07, 99 on p08, 10 on p16, 00 on p19) are not yet put in, as they change the word division. Of the reading differences (`docs/comparison_reading.tsv`), the key and reading ones (54 places, `docs/comparison_reading_cause.tsv`) have not been settled.
 - Whether other copies (Quadruplicate) survive.
